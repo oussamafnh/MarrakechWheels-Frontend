@@ -1,0 +1,58 @@
+.navbar {
+    width: 100%;
+    height: 9vh;
+    background-color: var(--backgroundColorColor);
+    position: fixed;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+
+.navbar .brand {
+    position: absolute;
+    top: 2vh;
+    left: 5vw;
+}
+
+
+.navbar .authentication {
+    position: absolute;
+    top: 0.5vh;
+    right: 5vw;
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+
+    ul {
+        display: flex;
+        gap: 1vw;
+        list-style: none;
+
+        li a {
+            text-decoration: none;
+            color: var(--mainColor);
+
+        }
+    }
+}
+
+
+.navbar .menu {
+    position: relative;
+
+    ul {
+        display: flex;
+        gap: 1vw;
+        list-style: none;
+        position: absolute;
+        top: 0.5vh;
+        left: 50%;
+        transform: translateX(-50%);
+
+        li a {
+            text-decoration: none;
+            color: var(--mainColor);
+        }
+
+    }
+}
