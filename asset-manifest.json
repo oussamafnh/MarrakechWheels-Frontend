@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/MarrakechWheels-Frontend/static/css/main.ef1b0145.css",
+    "main.js": "/MarrakechWheels-Frontend/static/js/main.d73f7590.js",
+    "static/js/787.0d9cbb8d.chunk.js": "/MarrakechWheels-Frontend/static/js/787.0d9cbb8d.chunk.js",
+    "static/media/GRENDB__.TTF": "/MarrakechWheels-Frontend/static/media/GRENDB__.9111cdfde382d2d11f3d.TTF",
+    "static/media/SpeedDemon.ttf": "/MarrakechWheels-Frontend/static/media/SpeedDemon.48cbbf90135b44394054.ttf",
+    "index.html": "/MarrakechWheels-Frontend/index.html",
+    "main.ef1b0145.css.map": "/MarrakechWheels-Frontend/static/css/main.ef1b0145.css.map",
+    "main.d73f7590.js.map": "/MarrakechWheels-Frontend/static/js/main.d73f7590.js.map",
+    "787.0d9cbb8d.chunk.js.map": "/MarrakechWheels-Frontend/static/js/787.0d9cbb8d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ef1b0145.css",
+    "static/js/main.d73f7590.js"
+  ]
+}
