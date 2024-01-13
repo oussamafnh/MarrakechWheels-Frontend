@@ -1,5 +1,5 @@
 import React from 'react';
-import "../Style/nav.css";
+import "../style/nav.css";
 import { Darklogo } from '../asset/dark_logo';
 
 const Nav = () => {

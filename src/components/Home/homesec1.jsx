@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from '../../asset/img1.jpg';
-import '../../Style/Home/homesec1.css';
+import '../../style/Home/homesec1.css';
 import { Mercedesamglogo } from '../../asset/mercedesamglogo';
 
 
