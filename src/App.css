@@ -3,14 +3,12 @@
     --secondColor: #ffffff;
     --backgroundColorColor: #000000;
 }
-
 @font-face {
     font-family: 'SpeedDemon';
     src: url('./asset/font/SpeedDemon.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
-
 @font-face {
     font-family: 'GRENDB__';
     src: url('./asset/font/GRENDB__.TTF') format('truetype');
