@@ -1,9 +1,9 @@
 import React from 'react';
-import "../style/nav.css";
+import "../Style/nav.css";
 import { Darklogo } from '../asset/dark_logo';
 
 const Nav = () => {
-    return (
+     return (
         <div className="navbar">
             <div className="brand">
                 <a href="/" className='logo'>
@@ -28,5 +28,7 @@ const Nav = () => {
         </div>
     )
 }
+
+
 
 export default Nav

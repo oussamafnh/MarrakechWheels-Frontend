@@ -1,0 +1,101 @@
+.homesec1 {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--backgroundColorColor);
+}
+
+.homesec1 .content {
+    /* width: 100vw; */
+    /* height: 100vh; */
+    /* margin-left: 10vw;
+    margin-right: 10vw; */
+    display: flex;
+    flex-direction: row;
+}
+
+
+.homesec1 .content .leftside {
+    width: 50vw;
+    height: 100vh;
+    position: relative;
+}
+
+.homesec1 .content .leftside .leftsidecontent {
+    position: absolute;
+    width: 80%;
+    height: 90vh;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 10vh;
+}
+
+.homesec1 .content .leftside .leftsidecontent .title {
+    width: 100%;
+    position: relative;
+}
+
+
+
+.homesec1 .content .leftside .leftsidecontent .title h1 {
+    color: var(--mainColor);
+    font-size: 6.5vh;
+    font-family: 'SpeedDemon';
+    text-align: center;
+}
+
+
+
+.homesec1 .content .leftside .leftsidecontent .button {
+    color: rgb(0, 0, 0);
+    background-color: var(--mainColor);
+    font-weight: 500;
+    border-radius: 1vh;
+    font-size: 1vh;
+    cursor: pointer;
+    text-align: center;
+    /* margin-right: 0.5rem; */
+    display: inline-flex;
+    align-items: center;
+    border: none;
+    width: 100%;
+    height: 7.5vh;
+    position: absolute;
+    bottom: 10vh;
+    display: flex;
+    justify-content: space-between;
+    transition: 0.4s ease-in;
+}
+
+.homesec1 .content .leftside .leftsidecontent .button:hover {
+    background-color: #ecffc4;
+}
+
+.homesec1 .content .leftside .leftsidecontent .button h1{
+    padding-inline: 1vw;
+    /* width: 100%;
+    text-align: center; */
+}
+
+
+
+
+.homesec1 .content .rightside {
+    width: 50vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+.homesec1 .content .rightside .mercedesamglogo{
+    position: absolute;
+    height: 12vh;
+    width: auto;
+    left: 50%;
+    transform: translateX(-60%);
+    top: 11vh;
+    path{
+        fill: var(--mainColor);
+    }
+}

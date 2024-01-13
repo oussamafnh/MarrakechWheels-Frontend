@@ -5,6 +5,7 @@
     position: fixed;
     font-family: Helvetica, sans-serif;
     font-weight: bold;
+    z-index: 1010;
 }
 
 
