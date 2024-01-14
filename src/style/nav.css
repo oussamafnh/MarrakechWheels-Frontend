@@ -15,6 +15,11 @@
     left: 5vw;
 }
 
+.navbar .brand:hover + .DarkLogo path,
+.navbar .brand:hover + .DarkLogo mask {
+    fill: #ecffc4;
+    stroke: #ecffc4;
+}
 
 .navbar .authentication {
     position: absolute;
