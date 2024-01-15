@@ -53,6 +53,7 @@
 .homesec1 .content .leftside .leftsidecontent .fichetechnic {
     color: var(--thirdColor);
 }
+
 .homesec1 .content .leftside .leftsidecontent .fichetechnic .fichtechsub {
     width: 50%;
     margin-bottom: 5vh;
@@ -73,12 +74,13 @@
 
 
 .homesec1 .content .leftside .leftsidecontent .fichetechnic .svg-tech {
-    path {
-        fill: var(--thirdColor);
-    }
 
     height: 8vh;
     width: auto;
+}
+
+.homesec1 .content .leftside .leftsidecontent .fichetechnic .svg-tech path {
+    fill: var(--thirdColor);
 }
 
 
@@ -133,12 +135,12 @@
     transform: translateX(-60%);
     top: 11vh;
 
-    path {
-        fill: var(--mainColor);
-    }
-
 }
 
+
+.homesec1 .content .rightside .mercedesamglogo path {
+    fill: var(--mainColor);
+}
 
 
 
@@ -151,12 +153,6 @@
     position: absolute;
     width: 2.5vw;
     height: auto;
-
-    path {
-        fill: var(--mainColor);
-        stroke: black;
-    }
-
     /* left: 50%; */
     left: 48.7%;
     /* transform: translateX(-60%); */
@@ -164,6 +160,11 @@
     animation: upndown 2s infinite;
 }
 
+
+.scrolldown path {
+    fill: var(--mainColor);
+    stroke: black;
+}
 
 
 @keyframes upndown {
