@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/MarrakechWheels-Frontend/static/css/main.97f901a1.css",
-    "main.js": "/MarrakechWheels-Frontend/static/js/main.c946aaac.js",
+    "main.css": "/MarrakechWheels-Frontend/static/css/main.d59fed0a.css",
+    "main.js": "/MarrakechWheels-Frontend/static/js/main.693acc90.js",
     "static/js/787.0d9cbb8d.chunk.js": "/MarrakechWheels-Frontend/static/js/787.0d9cbb8d.chunk.js",
     "static/media/img1.jpg": "/MarrakechWheels-Frontend/static/media/img1.d7d645509c56b05e244b.jpg",
     "static/media/GRENDB__.TTF": "/MarrakechWheels-Frontend/static/media/GRENDB__.9111cdfde382d2d11f3d.TTF",
     "static/media/SpeedDemon.ttf": "/MarrakechWheels-Frontend/static/media/SpeedDemon.48cbbf90135b44394054.ttf",
     "index.html": "/MarrakechWheels-Frontend/index.html",
-    "main.97f901a1.css.map": "/MarrakechWheels-Frontend/static/css/main.97f901a1.css.map",
-    "main.c946aaac.js.map": "/MarrakechWheels-Frontend/static/js/main.c946aaac.js.map",
+    "main.d59fed0a.css.map": "/MarrakechWheels-Frontend/static/css/main.d59fed0a.css.map",
+    "main.693acc90.js.map": "/MarrakechWheels-Frontend/static/js/main.693acc90.js.map",
     "787.0d9cbb8d.chunk.js.map": "/MarrakechWheels-Frontend/static/js/787.0d9cbb8d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.97f901a1.css",
-    "static/js/main.c946aaac.js"
+    "static/css/main.d59fed0a.css",
+    "static/js/main.693acc90.js"
   ]
 }
