@@ -39,6 +39,10 @@
     text-align: center;
 }
 
+
+
+
+
 .homesec1 .content .leftside .leftsidecontent .fichetechnic {
     display: flex;
     display: flex;
@@ -48,22 +52,22 @@
 
 .homesec1 .content .leftside .leftsidecontent .fichetechnic {
     color: var(--thirdColor);
-
-    .fichtechsub {
-        width: 50%;
-        margin-bottom: 5vh;
-        box-sizing: border-box;
-        text-align: center;
-    }
-
-    .fichtechsub h2 {
-        font-size: 2vh;
-    }
-
-    .fichtechsub h1 {
-        font-size: 3.5vh;
-    }
 }
+.homesec1 .content .leftside .leftsidecontent .fichetechnic .fichtechsub {
+    width: 50%;
+    margin-bottom: 5vh;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.homesec1 .content .leftside .leftsidecontent .fichetechnic .fichtechsub h2 {
+    font-size: 2vh;
+}
+
+.homesec1 .content .leftside .leftsidecontent .fichetechnic .fichtechsub h1 {
+    font-size: 3.5vh;
+}
+
 
 
 
@@ -132,7 +136,6 @@
     path {
         fill: var(--mainColor);
     }
-
 
 }
 

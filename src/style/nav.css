@@ -15,11 +15,7 @@
     left: 5vw;
 }
 
-.navbar .brand:hover + .DarkLogo path,
-.navbar .brand:hover + .DarkLogo mask {
-    fill: #ecffc4;
-    stroke: #ecffc4;
-}
+
 
 .navbar .authentication {
     position: absolute;
@@ -29,36 +25,40 @@
     flex-direction: row;
     gap: 1vw;
 
-    ul {
-        display: flex;
-        gap: 1vw;
-        list-style: none;
 
-        li a {
-            text-decoration: none;
-            color: var(--mainColor);
-
-        }
-    }
 }
+.navbar .authentication ul {
+    display: flex;
+    gap: 1vw;
+    list-style: none;
+}
+
+.navbar .authentication ul li a {
+    text-decoration: none;
+    color: var(--mainColor);
+
+}
+
+
 
 
 .navbar .menu {
     position: relative;
 
-    ul {
-        display: flex;
-        gap: 1vw;
-        list-style: none;
-        position: absolute;
-        top: 0.5vh;
-        left: 50%;
-        transform: translateX(-50%);
+}
 
-        li a {
-            text-decoration: none;
-            color: var(--mainColor);
-        }
+.navbar .menu ul {
+    display: flex;
+    gap: 1vw;
+    list-style: none;
+    position: absolute;
+    top: 0.5vh;
+    left: 50%;
+    transform: translateX(-50%);
+}
 
-    }
+
+.navbar .menu ul li a {
+    text-decoration: none;
+    color: var(--mainColor);
 }
