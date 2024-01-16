@@ -7,6 +7,12 @@ function App() {
     <div className="App">
       <Nav />
       <Home />
+      <div className='sec2'>
+
+      </div>
+      <div className='sec2'>
+
+</div>
     </div>
   );
 }

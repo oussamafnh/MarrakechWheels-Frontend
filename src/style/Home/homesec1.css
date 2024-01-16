@@ -185,3 +185,69 @@
 
     }
 }
+
+
+
+
+
+
+@media (max-width: 700px) {
+    .homesec1 {
+        height: 100vh;
+    }
+
+    .homesec1 .content {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .homesec1 .content .leftside,
+    .homesec1 .content .rightside {
+        width: 100%;
+    }
+
+    .homesec1 .content .leftside {
+        margin-top: 103vh;
+        background-color: var(--backgroundColorColor);
+    }
+
+    .homesec1 .content .rightside {
+        position: fixed;
+    }
+
+    .Xtitle {
+        position: fixed;
+        width: 100%;
+        top: 10vh;
+    }
+
+    .Xtitle h1 {
+        color: var(--mainColor);
+        font-size: 4.5vh;
+        font-family: 'SpeedDemon';
+        text-align: center;
+        /* position: -webkit-sticky; */
+        position: fixed;
+        /* z-index: 100; */
+    }
+
+    .mercedesamglogo {
+        display: none;
+    }
+
+    .homesec1 .content .leftside .leftsidecontent .title {
+        display: none;
+    }
+
+
+
+    .homesec1 .content .leftside .leftsidecontent .fichetechnic {
+        top: 14vh;
+        position: relative;
+        display: flex;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
